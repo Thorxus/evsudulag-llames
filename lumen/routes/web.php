@@ -18,4 +18,5 @@ $router->get('/', function () use ($router) {
 });
 
 
-$router->get('/users', 'UserController@getUsers');
+// $router->get('/users', 'UserController@getUsers');
+$router->post('/login', 'UserController@getUser');
