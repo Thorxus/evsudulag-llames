@@ -1,0 +1,65 @@
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .metrics {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .metric-card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .charts {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .chart-container {
+    flex: 1;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  canvas {
+    width: 100% !important;
+    height: 300px !important;
+  }
+  
+  .transactions {
+    margin-top: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .completed {
+    color: green;
+  }
+  
+  .pending {
+    color: orange;
+  }
+  

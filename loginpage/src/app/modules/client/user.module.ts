@@ -5,11 +5,12 @@ import { LoginComponent } from './components/login/login.component';
 import { MaterialModule } from './material.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { DetailComponent } from './components/detail/detail.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 
 
 @NgModule({
-  declarations: [LoginComponent, DetailComponent],
+  declarations: [LoginComponent, DetailComponent, DashboardComponent],
   imports: [
     CommonModule,
     RouteModule,
